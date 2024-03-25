@@ -1,0 +1,9 @@
+git init
+git add . 
+git config --global user.name 'cristianlyle'
+git config --global user.email 'cristianlyle@gmail.com'
+git status
+git commit -m 'first commit'
+git remote add origin https://github.com/cristianlyle/sampleApp
+git status
+git push -u origin master 
